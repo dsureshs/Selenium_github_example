@@ -11,11 +11,11 @@ public class Example2
 	
 	 driver.get("https://www.flexiquiz.com/home/features");
 	 
-	 String page_title = driver.getTitle(); // it will get the title of current page and return in 'String' 
+	 String page_title = driver.getTitle(); 
 		
 	 System.out.println(page_title);
 	 
-	 
+	 driver.close();
 	 
 	}
 }
